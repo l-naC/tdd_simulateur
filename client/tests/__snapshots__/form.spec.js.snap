@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form rendering 1`] = `
+<main
+  className="MuiContainer-root MuiContainer-maxWidthXs"
+>
+  <div
+    className=""
+  >
+    <br />
+    <br />
+    <h1
+      className="MuiTypography-root MuiTypography-h5"
+    >
+      Simulateur de retraite
+    </h1>
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      Savoir à quel âge on peut partir avec une retraite à taux plein (avec une carrière continue)
+    </p>
+    <br />
+    <br />
+    <form
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <div
+            className="MuiFormControl-root MuiTextField-root"
+          >
+            <label
+              className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+              data-shrink={false}
+              htmlFor="birthYear"
+              id="birthYear-label"
+            >
+              Année de naissance
+              <span
+                aria-hidden={true}
+                className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+              onClick={[Function]}
+            >
+              <input
+                aria-invalid={false}
+                autoFocus={false}
+                className="MuiInputBase-input MuiOutlinedInput-input"
+                disabled={false}
+                id="birthYear"
+                name="birthYear"
+                onAnimationStart={[Function]}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder="AAAA"
+                required={true}
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  className="PrivateNotchedOutline-legendLabelled-3"
+                >
+                  <span>
+                    Année de naissance
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <div
+            className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          >
+            <label
+              className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+              data-shrink={false}
+              htmlFor="ageWork"
+              id="ageWork-label"
+            >
+              Âge d'entrée dans la vie active
+              <span
+                aria-hidden={true}
+                className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+              onClick={[Function]}
+            >
+              <input
+                aria-invalid={false}
+                autoFocus={false}
+                className="MuiInputBase-input MuiOutlinedInput-input"
+                disabled={false}
+                id="ageWork"
+                name="ageWork"
+                onAnimationStart={[Function]}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder=""
+                required={true}
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  className="PrivateNotchedOutline-legendLabelled-3"
+                >
+                  <span>
+                    Âge d'entrée dans la vie active
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+            disabled={false}
+            onBlur={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="submit"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Calculer mon âge de retraite
+            </span>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <br />
+  <br />
+  <div>
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      
+    </p>
+  </div>
+  <div
+    className="MuiBox-root MuiBox-root-5"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-alignCenter"
+    >
+      Copyright © 
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+        href="/"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        Léna Clavier & Valentine Lav
+      </a>
+       
+      2021
+      .
+    </p>
+  </div>
+</main>
+`;
